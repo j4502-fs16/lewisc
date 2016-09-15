@@ -1,4 +1,34 @@
 p{
   color: red;
   color:#666666;
+  font-family:helvetica, arial,sans-serif;
 }
+
+h1{
+    font-family:georgia, "times new roman", seif;
+}
+
+body{
+    background-color:#ebe3ce
+}
+
+#container{
+  width:95%;
+  background-color:#ffffff;
+  margin:0 auto;
+}
+
+.caption{
+  color:black;
+  font-family:georgia, "times new roman", serif;
+  font-size: 0.8em;
+  font-syle: italic;
+  margin-top: 0;
+  text-align:right;
+}
+ #footer{
+   color:black;
+   font-family:georgia, "times new roman", serif;
+   font-size:0.8em;
+   border-top:1px solid black;
+ }
