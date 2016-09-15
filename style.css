@@ -19,7 +19,7 @@ body{
 }
 
 #containter{
-  width:95%auto;background-color:
+  width:95%auto;
   background-color:orange;
   margin: 0 auto;
 }
@@ -48,7 +48,7 @@ body{
 }
 
   #nav a:hover, a:active {
-            background-color: orange;
+            background-color:#FFA07A;
         }
 
 
