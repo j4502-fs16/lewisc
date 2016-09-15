@@ -46,6 +46,12 @@ body{
         padding: 4px;
         font-family: Helvetica, Arial, sans-serif;
 }
+
+  #nav a:hover, a:active {
+            background-color: #7a991a;
+        }
+
+
 .caption{
   color:black;
   font-family:Georgia, "Times New Roman", serif;
