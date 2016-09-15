@@ -34,7 +34,18 @@ body{
     margin: 0;
     padding: 0;
     width: 25%;
+  }
 
+  #nav a:link, a:visited {
+    	display:block;
+        color: white;
+        background-color: #orange;
+        font-weight: bold;
+        text-align:center;
+        text-decoration: none;
+        padding: 4px;
+        font-family: Helvetica, Arial, sans-serif;
+}
 .caption{
   color:black;
   font-family:Georgia, "Times New Roman", serif;
