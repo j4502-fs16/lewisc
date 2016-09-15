@@ -24,6 +24,17 @@ body{
   margin: 0 auto;
 }
 
+#nav {
+    padding: 0;
+}
+
+#nav li {
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+
 .caption{
   color:black;
   font-family:Georgia, "Times New Roman", serif;
