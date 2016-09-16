@@ -24,8 +24,11 @@ body{
   background-color:turquoise
 }
 
-#containter{
-  width:95%auto;
+div{
+  background-color: orange;
+}
+#container{
+  width:95%
   background-color:orange;
   margin: 0 auto;
 }
@@ -43,9 +46,13 @@ body{
     width: 25%;
   }
 
+  img{
+    border: 0;
+  }
+
   #nav a:link, a:visited {
-    	display:block;
-        color: white;
+    	  display:block;
+        color:white;
         background-color:orange;
         font-weight: bold;
         text-align:center;
@@ -55,9 +62,12 @@ body{
 }
 
   #nav a:hover, a:active {
+            color:blue;
             background-color:#FF8C00;
         }
-
+#experience li {
+  list-style-type: none;
+}
 .caption{
   color:black;
   font-family:Georgia, "Times New Roman", serif;
