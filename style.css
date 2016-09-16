@@ -28,7 +28,7 @@ div{
   background-color: orange;
 }
 #container{
-  width:95%
+  width:95%;
   background-color:orange;
   margin: 0 auto;
 }
@@ -39,7 +39,7 @@ div{
 
 #nav li {
     list-style-type: none;
-    color:white
+    color:white;
     float: left;
     margin: 0;
     padding: 0;
