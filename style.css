@@ -1,10 +1,14 @@
 p{
   color:white;
   font-family: helvetica, arial, sans-serif
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
 }
 
 h1{
   font-family: georgia, "times new roman", sans-serif;
+  text-align: center;
 }
 h2{
   font-family: georgia, "times new roman", sans-serif;
