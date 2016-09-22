@@ -2,7 +2,7 @@ p{
   color:white;
   font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
-  font-size: 40px;
+  font-size: 0.8em;
   font-weight: bolder;
 }
 
@@ -22,6 +22,7 @@ h3{
 
 body{
   background-color:turquoise
+  text-align: center;
 }
 
 div{
@@ -31,6 +32,12 @@ div{
   width:95%;
   background-color:orange;
   margin: 0 auto;
+}
+
+#font-size {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-size:40px;
 }
 
 #nav {
