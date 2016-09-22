@@ -66,6 +66,7 @@ div{
             background-color:#FF8C00;
         }
 #experience li {
+  font-family: 'Playfair Display', serif;
   list-style-type: none;
 }
 .caption{
