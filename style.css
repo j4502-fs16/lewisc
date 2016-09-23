@@ -1,41 +1,40 @@
 p{
   color:white;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif, serif;
   text-align: center;
-  font-size: 0.8em;
+  font-size: 1.5em;
   font-weight: bolder;
 }
 
 h1{
-  font-family: 'PT Serif', serif;
+  font-family: 'PT Serif', serif,sans-serif;
   text-align: center;
 }
 h2{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', serif,sans-serif;
   text-align: center;
 }
 
 h3{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', serif, sans-serif;
   text-align: center;
 }
 
 body{
-  background-color:turquoise
+  background-color:rgb(255,170,170);
   text-align: center;
 }
 
 div{
-  background-color: orange;
+  background-color:rgb(212, 106,106);
 }
 #container{
   width:95%;
-  background-color:orange;
   margin: 0 auto;
 }
 
 #font-size {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', serif,sans-serif;
   text-align: center;
   font-size:40px;
 }
@@ -60,34 +59,34 @@ div{
   #nav a:link, a:visited {
     	  display:block;
         color:white;
-        background-color:orange;
+        background-color:rgb (212, 106,106);
         font-weight: bold;
         text-align:center;
         text-decoration: none;
         padding: 4px;
-        font-family: 'Playfair Display', serif;
+        font-family: 'Playfair Display', serif, sans-serif;
 }
 
   #nav a:hover, a:active {
-            color:blue;
-            background-color:#FF8C00;
+            color:rgb(85,0,0);
+            background-color:rgb(170,57,57);
         }
 #experience li {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', serif, sans-serif;
   list-style-type: none;
 }
 .caption{
   color:black;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', serif, sans-serif;
   font-size:0.8em;
   font-style:italic;
   margin-top:0;
-  text-align:left;
+  text-align:center;
 }
 
 #footer {
     color: black;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', serif, sans-serif;
     font-size: 0.8em;
     border-top: 1px solid black;
 }
