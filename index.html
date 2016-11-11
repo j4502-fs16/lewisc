@@ -6,17 +6,23 @@
     content="text/html;charset=utf-8"/>
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|PT+Serif|Playfair+Display" rel="stylesheet"/>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="menu.js" type="text/javascript"></script>
   </head>
 <body>
   <nav>
-      <ul class="navigation">
-        <li class="first"><a href="#">Home</a></li>
+      <a class="menu-trigger" href="#">&#9776;</a>
+      <ul>
+        <li><a href="#">Home</a></li>
         <li><a href="#">resume</a></li>
         <li><a href="#">work</a></li>
         <li><a href="#">About</a></li>
       </ul>
   </nav>
+  <div class="tab-group">
+  <div class="head">
   <h2> courtney lewis</h2>
+</div>
   <a href="mailto:cplv22@mail.missouri.edu">
   </a>
   <h3><a href="#experience"> work experience</a></h3>
@@ -27,14 +33,36 @@
 <div class="wrapper">
   <header class="header">courtney's website </header>
 <article class="main">
+  <div class="story">
   <img src="IMG_7772.jpg" alt="picture of me"/>
   <p class="caption"> media tour Atlanta </p>
 </article>
   <p> why did the blood cross the road?
         Answer: cuz </p>
+<div class="story">
+  <div class= "summary">
 
-<aside class="aside aside-1"> komu reporting</aside>
-<aside class="aside aside-2"> kbia reporting</aside>
+<div class="reporting-group">
+  <div class="reporting">
+    <input id="reporting-1" type="checkbox" name=reportings checked/>
+      <label for="reporting-1">komu reporting</label>
+      <div class="reporting-content">
+        <ul class="subnav">
+<li> reported on daily and night shifts. went out on breaking news as well. </li>
+</ul>
+</div>
+</div>
+
+
+
+
+<div class="reporting">
+  <input id="reporting-2" type="checkbox" name="reportings" checked/>
+<label for="reporting-2"> kbia reporting</label>
+<div class="reporting-content">
+  <ul class="subnav">
+<li> reported for kbia Friday's for several hours. Got interviews and wrote copy.</li>
+</div>
 
 <ul id="experience">
 
